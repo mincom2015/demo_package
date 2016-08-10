@@ -1,0 +1,15 @@
+{
+    "name": "minhht/demo_package",
+    "description": "First Package",
+    "type": "lib",
+    "require": {
+        "php": ">=5.4",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-0": {
+            "DemoPackage\\": "src/"
+        }
+    }
+}
